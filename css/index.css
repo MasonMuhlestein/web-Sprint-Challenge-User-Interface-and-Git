@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,4 +144,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+.HeaderPhoto {
+    margin: 0 0 20px 0;
+}
+
+header{
+    display: flex;
+
+
+}
+
+nav {
+    display: flex;
+    margin: 40px;
+}
+
+.Logo {
+    display: flex;
+    align-self: center;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+
+#teal {
+    background-color:teal;
+
+}
+
+#gold {
+    background-color:gold;
+    
+}
+
+#cadetblue {
+    background-color:cadetblue;
+    
+}
+
+#coral {
+    background-color:coral;
+    
+}
+
+#crimson {
+    background-color:crimson;
+}
+
+#forestgreen {
+    background-color:forestgreen;
+}
+
+#darkorchid {
+    background-color:darkorchid;
+}
+
+#hotpink {
+    background-color:hotpink; 
+}
+
+#indigo {
+    background-color:indigo;
+}
+
+#dodgerblue {
+    background-color:dodgerblue; 
+}
+
+.LearnMore {
+    display: flex;
+    border: black 2px solid;
+    margin: 15px auto;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-left: 0px
+    
+}
+
+.FirstSection {
+    display: flex;
+}
+
+.SecondSection {
+    display: flex
+}
+
+.Info {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderFooter {
+    margin: 15px;
+}
+
+img {
+    margin: 0 0 15px 0
 }
